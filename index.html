@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Easy +</title>
+    <title>Easy Plus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: right;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service-card {
+            width: 30%;
+            border: 1px solid #4CAF50;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .service-card h3 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Easy Plus</h1>
+    <header>
+        <div class="logo">Easy Plus</div>
+    </header>
+
+    <div class="container">
+        <div class="services">
+            <div class="service-card">
+                <h3>שירות 1</h3>
+                <p>תיאור השירות הראשון שאנחנו מציעים.</p>
+            </div>
+            <div class="service-card">
+                <h3>שירות 2</h3>
+                <p>תיאור השירות השני שאנחנו מציעים.</p>
+            </div>
+            <div class="service-card">
+                <h3>שירות 3</h3>
+                <p>תיאור השירות השלישי שאנחנו מציעים.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h2>צור קשר</h2>
+        <p>כתובת: רחוב דוגמה 123, תל אביב</p>
+        <p>טלפון: 03-1234567</p>
+        <p>אימייל: info@easyplus.com</p>
+    </footer>
 </body>
 </html>
