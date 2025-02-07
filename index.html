@@ -1,85 +1,28 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Easy Plus</title>
+    <title>Center Image</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            direction: rtl;
-            text-align: right;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .logo {
-            font-size: 2em;
-            font-weight: bold;
-        }
-        .container {
-            padding: 20px;
-        }
-        .services {
             display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
         }
-        .service-card {
-            width: 30%;
-            border: 1px solid #4CAF50;
-            border-radius: 8px;
-            padding: 20px;
-            margin: 10px;
-            background-color: #f9f9f9;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .service-card h3 {
-            color: #4CAF50;
-            margin-bottom: 10px;
-        }
-        footer {
-            background-color: #f1f1f1;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            margin:15px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="logo">Easy Plus</div>
-    </header>
-
-    <div class="container">
-        <div class="services">
-            <div class="service-card">
-                <h3>שירות 1</h3>
-                <p>תיאור השירות הראשון שאנחנו מציעים.</p>
-            </div>
-            <div class="service-card">
-                <h3>שירות 2</h3>
-                <p>תיאור השירות השני שאנחנו מציעים.</p>
-            </div>
-            <div class="service-card">
-                <h3>שירות 3</h3>
-                <p>תיאור השירות השלישי שאנחנו מציעים.</p>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <h2>צור קשר</h2>
-        <p>כתובת: רחוב דוגמה 123, תל אביב</p>
-        <p>טלפון: 03-1234567</p>
-        <p>אימייל: info@easyplus.com</p>
-    </footer>
+    <img src="images/under_construction.png" alt="Under construction">
 </body>
 </html>
